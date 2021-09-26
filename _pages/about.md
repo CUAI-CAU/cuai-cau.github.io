@@ -1,50 +1,35 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "중앙대학교 인공지능 학회 CUAI"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+CUAI(이하 쿠아이)는 2018년 1학기 'CAU BIG DATA'라는 이름의 소규모 학회로 인재개발원 직무연구회에 소속되어 활동을 시작하였습니다. 매주 세미나 발표를 진행하고, 다양한 공모전과 경진대회에서 입상하는 등의 성과를 보여왔습니다.   
+2020년 이후로는 코로나로 인해 대면활동 진행의 어려움에도 불구하고 비대면 세션으로의 빠른 전환을 택하여 3기 및 4기 활동을 진행하였습니다. 저희 쿠아이는 앞으로 더욱 발전적인 학회로 거듭나고자 다양한 경험에 도전하려 합니다.
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
-
-A data-driven personal website
+Conference
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+쿠아이 컨퍼런스는 하계 및 동계 방학마다 개최되며 그동안 진행한 팀별 프로젝트를 발표하고 시상하는 자리입니다. 지난 [4기 하계 컨퍼런스](https://github.com/CUAI-CAU/2021-CUAI-Summer-Conference) 역시 수많은 팀이 참여해 자리를 빛내주었으며, 다양한 주제로 여름방학 동안 공부하여 진행된 프로젝트들을 확인했습니다.   
+![image](https://user-images.githubusercontent.com/80081987/134805856-51cf55b9-9b58-48ba-91d2-6dc842a7f7a3.png)
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+Session
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+쿠아이 정기세션은 시험기간을 제외한 매주 화요일 19시부터 21시(경우에 따라 유동적)까지 진행됩니다. 진행 방식은 사회적 거리두기와 정부 방역지침에 따라 Zoom, 대면 등 유동적으로 변경됩니다. 현재는 코로나로 인해 Zoom으로 진행하며 화요일마다 학회원분들과 의미있는 시간을 만들어가는 중입니다.
 
-Site-wide configuration
+NIPA GPU Server
+======
+쿠아이는 정보통신산업진흥원(NIPA)에서 지원하는 고성능 컴퓨팅 서버에 대한 할당을 받아, 학회원이라면 언제든지 고성능 GPU를 이용해 더욱 나은 데이터 분석 환경을 이용할 수 있습니다. 2020년과 2021년 각각에는 2020 TPLOPS 급 성능 및 40 TFLOPS GPU 서버를 할당받아 사용했습니다.
+
+Q&A
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+>> Q1. 인공지능(혹은 통계, 코딩 등)에 대해 잘 모르는데 최근에 관심이 생겨 공부하는 중입니다. 지원해도 괜찮을까요?   
+>> A1. 기본적인 Python 지식, 새로운 학무과 프로젝트에 도전하고자 하는 열의가 있다면 관련 학업 수준은 지원에 큰 영향을 미치지 않습니다. 면접시 질문하는 관련 지식 또한 밀 주어지는 사전 과제에 기반한 내용이니 큰 부담갖지 말고 지원해주세요.   
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+>> Q2. 학과 또는 나이 제한이 있나요?
+>> A2. 쿠아이는 학과와 나이 제한이 없는 학회입니다. 인공지능에 관심 있는 학부생은 물론, 대학원생 및 졸업생 모두 지원이 가능합니다. 단, 수료증은 1년 동안의 커리큘럼 이수 후 발급되는 점 지원전 확인 부탁드립니다.   
 
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+>> Q3. 머신러닝에 대해 이미 어느정도 독학한 상태입니다. 팀원들과 함께 프로젝트나 공모전 경험을 쌓고 싶은데 지원 가능한가요?
+>> A3. 기초적인 Python과 인공지능, 데이터 분석 경험이 있는 경우 Advanced Track으로 지원이 가능합니다. Advanced Track은 공모전 및 프로젝트를 중심으로 한 역량 강화 기반의 커리큘럼입니다. 쿠아이는 학회 내 다양한 학회원들과의 프로젝트 경험을 쌓을 지원자를 기다립니다.
