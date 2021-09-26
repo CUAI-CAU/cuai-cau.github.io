@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "CUAI 중앙대학교 인공지능 학회"
+locale                   : "ko-KR"
+title                    : "중앙대학교 인공지능 학회 CUAI"
 title_separator          : "-"
 name                     : &name "CUAI"
 description              : &description "Chung-Ang University Artificial Intellegence Society"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "CUAI CAU"
   avatar           : "profile.png"
-  bio              : "CUAI는 2018년부터 매 학기 스터디와 컨퍼런스를 진행하고 연구 활동을 수행하며 인공지능에 대한 역량을 키워나가고 있는 중앙대학교 학내 연구회입니다."
-  location         : "Seoul, Korea"
+  bio              : "Chung-Ang University Artificial Intelligence Society"
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : 
